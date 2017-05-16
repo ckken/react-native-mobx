@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "transform-decorators-legacy",
+    ["module-alias", [
+    	{ "src": "./app", "expose": "app" }
+    ]]
+  ],
+  "presets": [
+    "react-native",
+    "react-native-stage-0/decorator-support"
+  ]
+}
