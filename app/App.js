@@ -19,8 +19,8 @@ const storeName = {
 @observer
 export default class App extends Component {
   componentDidMount() {
-    this.props.screenProps.store.register(storeName);
-    this.devData = this.props.screenProps.store[storeName.dev].data
+    // this.props.screenProps.store.register(storeName);
+    // this.devData = this.props.screenProps.store[storeName.dev].data
   }
   render() {
     return (
